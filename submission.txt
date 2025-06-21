@@ -1,0 +1,11 @@
+# Skrip ini dijalanin di terminal root folder yg berisi file main.py dan subfolder utils serta tests
+python main.py
+
+# Menjalankan unit test pada folder tests
+python -m pytest tests
+
+# Menjalankan test coverage pada folder tests
+coverage run -m pytest tests
+
+# Menampilkan laporan coverage di terminal
+coverage report
